@@ -2,28 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-		<meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <title> Итоговая работа по блоку HTML,CSS. Макет Tesla </title>
   </head>
   <body class="body">
-    <header>
-      <h1 class="header__title">
-        Tesla
-      </h1>
+    <header class="header">
+      <span class="header__span">
+        <img class="header__img" src="Tesla-Wordmark-Red.svg" alt="Tesla">
+      </span>
+      <nav class="nav">
+        <a href="#" class="nav__item"> Model S </a>
+        <a href="#" class="nav__item"> Model X </a>
+        <a href="#" class="nav__item"> Model 3 </a>
+        <a href="#" class="nav__item"> Roadster </a>
+        <a href="#" class="nav__item"> Energy </a>
+        <a href="#" class="nav__par"> Магазин </a>
+        <a href="#" class="nav__par"> Войти </a>
+      </nav>
     </header>
     <div class="hamburger-menu"></div>
     <input id="menu__toggle" type="checkbox" />
     <label class="menu__btn" for="menu__toggle">
     </label>
-    <nav class="nav">
-      <a href="#" class="nav__item"> Model S </a>
-      <a href="#" class="nav__item"> Model X </a>
-      <a href="#" class="nav__item"> Model 3 </a>
-      <a href="#" class="nav__item"> Roadster </a>
-      <a href="#" class="nav__item"> Energy </a>
-      <a href="#" class="nav__par"> Магазин </a>
-      <a href="#" class="nav__par"> Войти </a>
-    </nav>
     <main class="main">
       <h1 class="main__title">
         Model S
@@ -32,126 +32,129 @@
         Добро пожаловать в будущее!
       </h4>
       <span class="main__span">
-        <img class="main__img" src="" alt="TESLA-wordmark">
-        <img class="main__img" src="" alt="car">
+        <img class="main__img" src="Tesla-Wordmark-Red-big.svg" alt="TESLA-wordmark">
+        <img class="main__img" src="Tesla.svg" alt="car">
       </span>>
-      <span class="main__span">
-        <img class="main__img" src="" alt="speedometer">
-        <div class="div__info"> 2,7 сек</div>
-        <div class="div__info"> 0-100 км/час</div>
+      <span class="main__span description">
+        <img class="main__img" src="Speedometer icon.svg" alt="speedometer">
+        <div class="description__info"> 2,7 сек</div>
+        <div class="description__info"> 0-100 км/час</div>
       </span>
-      <span class="main__span">
-        <img class="main__img" src="" alt="road">
-        <div class="div__info">632 км</div>
-        <div class="div__info">запас хода</div>
+      <span class="main__span description">
+        <img class="main__img" src="Road icon.svg" alt="road">
+        <div class="description__info">632 км</div>
+        <div class="description__info">запас хода</div>
       </span>
-      <span class="main__span">
-        <img class="main__img" src="" alt="wheel">
-        <div class="div__test">
+      <span class="main__span description">
+        <img class="main__img" src="Wheel icon.svg" alt="wheel">
+        <div class="description__test">
           <h6>ТЕСТ ДРАЙВ</h6>
         </div>
       </span>
-      <input class="main__input" type="button" value=" Заказать">
+      <input class="input__red" type="button" value=" Заказать">
     </main>
     <article class="article-info">
       <h2 class="article-info__title">Model S</h2>
       <span class="article-info__span">
-        <img class="article-info__img" src="" alt="cockpit">
+        <img class="article-info__img" src="Model S cockpit.svg" alt="cockpit">
       </span>
-      <h3 class="article-info__subtitle">
+      <h3 class="article-info__subtitle tit">
         Будущее вождение
       </h3>
-      <p class="article-info__description">
+      <div class="article-info__description text">
         Модель S обладает лучшей в своем классе вместимостью: в машине поместиться до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.
-      </p>
-      <span class="span__icon">
-        <img class="span__img" src="" alt="display">
-        <div class="div__description"> 17 дюймов</div>
-        <div class="div__description"> Большой дисплей
+      </div>
+      <span class="article-info__span description">
+        <img class="span__img" src="Display icon.svg" alt="display">
+        <div class="description__info white"> 17 дюймов</div>
+        <div class="description__info white"> Большой дисплей
         </div>
       </span>
-      <span class="span__icon">
-        <img class="span__img" src="" alt="software">
-        <div class="div__description">Беспроводное обновление ПО</div>
-        <div class="div__description">Повышенная функциональность</div>
+      <span class="article-info__span description">
+        <img class="span__img" src="Software icon.svg" alt="software">
+        <div class="description__info white">Беспроводное обновление ПО</div>
+        <div class="description__info white">Повышенная функциональность</div>
       </span>
-      <span class="span__icon">
-        <img class="span__icon" src="" alt="weight">
-        <div class="div__description">894 литра</div>
-        <div class="div__description">Объем грузового пространства</div>
+      <span class="article-info__span description">
+        <img class="span__img" src="Bag icon.svg" alt="weight">
+        <div class="description__info white">894 литра</div>
+        <div class="description__info white">Объем грузового пространства</div>
       </span>
       <input class="input__details" type="button" value="Узнать больше">
-      <input class="input__red" type="button" value="Заказать">
+      <input class="input__white" type="button" value="Заказать">
     </article>
     <article class="article-safety">
-      <h3 class="article-safety__subtitle">
+      <h3 class="article-safety__subtitle tit">
         Самый безопасный автомобиль в мире
       </h3>
-      <p class="article-safety__description">
+      <div class="article-safety__description text">
         Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.
-      </p>
+      </div>
       <h3 class="article-safety__subtitle"> Оценка защиты</h3>
-      <p class="article-safety__criterion">СПЕРЕДИ
-        <span class="span">
-          <img class="span__star" src="" alt="star">
-          <img class="span__star" src="" alt="star">
-          <img class="span__star" src="" alt="star">
-          <img class="span__star" src="" alt="star">
-          <img class="span__star" src="" alt="star">
-          <img class="span__star" src="" alt="star">
+      <div class="article-safety__criterion">СПЕРЕДИ
+        <span class="article-safety__span icon">
+          <img class="icon__star" src="Star.svg" alt="star">
+          <img class="icon__star" src="Star.svg" alt="star">
+          <img class="icon__star" src="Star.svg" alt="star">
+          <img class="icon__star" src="Star.svg" alt="star">
+          <img class="icon__star" src="Star.svg" alt="star">
+          <img class="icon__star" src="Star.svg" alt="star">
         </span>
-      </p>
-      <p class="article-safety__criterion">СБОКУ
-        <span class="span">
-          <img class="span__star" src="" alt="star">
-          <img class="span__star" src="" alt="star">
-          <img class="span__star" src="" alt="star">
-          <img class="span__star" src="" alt="star">
-          <img class="span__star" src="" alt="star">
-          <img class="span__star" src="" alt="star">
+      </div>
+      <div class="article-safety__criterion">СБОКУ
+        <span class="article-safety__span icon">
+          <img class="icon__star" src="Star.svg" alt="star">
+          <img class="icon__star" src="Star.svg" alt="star">
+          <img class="icon__star" src="Star.svg" alt="star">
+          <img class="icon__star" src="Star.svg" alt="star">
+          <img class="icon__star" src="Star.svg" alt="star">
+          <img class="icon__star" src="Star.svg" alt="star">
         </span>
-      </p>
-      <p class="article-safety__criterion">СБОКУ (СТОЙКА)
-        <span class="span">
-          <img class="span__star" src="" alt="star">
-          <img class="span__star" src="" alt="star">
-          <img class="span__star" src="" alt="star">
-          <img class="span__star" src="" alt="star">
-          <img class="span__star" src="" alt="star">
-          <img class="span__star" src="" alt="star">
+      </div>
+      <div class="article-safety__criterion">СБОКУ (СТОЙКА)
+        <span class="article-safety__span icon">
+          <img class="icon__star" src="Star.svg" alt="star">
+          <img class="icon__star" src="Star.svg" alt="star">
+          <img class="icon__star" src="Star.svg" alt="star">
+          <img class="icon__star" src="Star.svg" alt="star">
+          <img class="icon__star" src="Star.svg" alt="star">
+          <img class="icon__star" src="Star.svg" alt="star">
         </span>
-      </p>
-      <p class="article-safety__criterion">ВОДИТЕЛЬ
-        <span class="span">
-          <img class="span__star" src="" alt="star">
-          <img class="span__star" src="" alt="star">
-          <img class="span__star" src="" alt="star">
-          <img class="span__star" src="" alt="star">
-          <img class="span__star" src="" alt="star">
-          <img class="span__star" src="" alt="star">
+      </div>
+      <div class="article-safety__criterion">ВОДИТЕЛЬ
+        <span class="article-safety__span icon">
+          <img class="icon__star" src="Star.svg" alt="star">
+          <img class="icon__star" src="Star.svg" alt="star">
+          <img class="icon__star" src="Star.svg" alt="star">
+          <img class="icon__star" src="Star.svg" alt="star">
+          <img class="icon__star" src="Star.svg" alt="star">
+          <img class="icon__star" src="Star.svg" alt="star">
         </span>
-      </p>
-      <p class="article-safety__criterion">ПАССАЖИР
-        <span class="span">
-          <img class="span__star" src="" alt="star">
-          <img class="span__star" src="" alt="star">
-          <img class="span__star" src="" alt="star">
-          <img class="span__star" src="" alt="star">
-          <img class="span__star" src="" alt="star">
-          <img class="span__star" src="" alt="star">
+      </div>
+      <div class="article-safety__criterion">ПАССАЖИР
+        <span class="article-safety__span icon">
+          <img class="icon__star" src="Star.svg" alt="star">
+          <img class="icon__star" src="Star.svg" alt="star">
+          <img class="icon__star" src="Star.svg" alt="star">
+          <img class="icon__star" src="Star.svg" alt="star">
+          <img class="icon__star" src="Star.svg" alt="star">
+          <img class="icon__star" src="Star.svg" alt="star">
         </span>
-      </p>
+      </div>
       <span class="span">
-        <img class="span__safety" src="" alt="icon-of-safety">
+        <img class="span__safety" src="Safety icon.svg" alt="icon-of-safety">
         <div class="div__stars">
           5 звезд безопасности
         </div>
       </span>
       <input class="input__details" type="button" value="Узнать больше">
-      <input class="input__red" type="button" value="Заказать">
+      <input class="input__white" type="button" value="Заказать">
       <span class="span-pic">
-        <img class="span-pic__img" src="" alt="Model S">
-        <img class="span-pic__img" src="" alt="Car frame">
+        <img class="span-pic__img" src="Model S.svg" alt="Model S">
+        <img class="span-pic__img" src="Car frame.svg" alt="Car frame">
+        <img class="span-pic__shape" src="Rectangle 3.2.svg" alt="Rectangle">
+        <img class="span-pic__shape" src="Rectangle 3.3.svg" alt="Rectangle">
+        <img class="span-pic__shape" src="Rectangle 3.4.svg" alt="Rectangle">
         <div class="div__pro">Защита от удара спереди</div>
         <div class="div__pro">Защита от удара сбоку</div>
         <div class="div__pro">Минимальный риск перевернуться в аварии</div>
