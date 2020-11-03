@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <title> Итоговая работа по блоку HTML,CSS. Макет Tesla </title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body class="body">
     <header class="header">
@@ -21,7 +23,7 @@
       </nav>
     </header>
     <div class="hamburger-menu"></div>
-    <input id="nav__switch" type="checkbox" />
+    <input id="nav__switch" type="nav__checkbox" />
     <label class="nav__btn" for="nav__switch">
     </label>
     <main class="main">
@@ -37,13 +39,15 @@
       </span>
       <span class="main__span description">
         <img class="main__span_img" src="Speedometer icon.svg" alt="speedometer">
-        <div class="description__info"> 2,7 сек</div>
-        <div class="description__info"> 0-100 км/час</div>
+        <div class="description_info_number"> 2,7</div>
+				<div class="description_info_value">сек</div>
+				<div class="description_info_text">0-100 км/час</div>
       </span>
       <span class="main__span description">
         <img class="main__span_img" src="Road icon.svg" alt="road">
-        <div class="description__info">632 км</div>
-        <div class="description__info">запас хода</div>
+        <div class="description_info_number">632</div>
+				<div class="description_info_value">км</div>
+        <div class="description_info_text">запас хода</div>
       </span>
       <span class="main__span description">
         <img class="main__span_img" src="Wheel icon.svg" alt="wheel">
@@ -80,7 +84,7 @@
         <div class="description__info white">894 литра</div>
         <div class="description__info white">Объем грузового пространства</div>
       </span>
-      <input class="input_details" type="button" value="Узнать больше">
+      <input class="input_button_no_frame" type="button" value="Узнать больше">
       <input class="input_color_white" type="button" value="Заказать">
     </article>
     <article class="article-safety">
@@ -147,7 +151,7 @@
           5 звезд безопасности
         </div>
       </span>
-      <input class="input_details" type="button" value="Узнать больше">
+      <input class="input_button_no_frame" type="button" value="Узнать больше">
       <input class="input_color_white" type="button" value="Заказать">
       <span class="span-pic">
         <img class="span-pic__img" src="Model S.svg" alt="Model S">
