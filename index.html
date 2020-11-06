@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <title> Итоговая работа по блоку HTML,CSS. Макет Tesla </title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body class="body">
@@ -13,7 +13,7 @@
         <img class="header__img" src="Tesla-Wordmark-Red.svg" alt="Tesla">
       </span>
       <nav class="nav">
-        <a href="#" class="nav__item"> Model S </a>
+        <a href="#" class="nav__item-red"> Model S </a>
         <a href="#" class="nav__item"> Model X </a>
         <a href="#" class="nav__item"> Model 3 </a>
         <a href="#" class="nav__item"> Roadster </a>
@@ -30,9 +30,9 @@
       <h1 class="main__title">
         Model S
       </h1>
-      <h4 class="main__subtitle">
+      <h5 class="main__subtitle">
         Добро пожаловать в будущее!
-      </h4>
+      </h5>
       <span class="main__span img">
         <img class="img-wordmark" src="Tesla-Wordmark-Red-big.svg" alt="TESLA-wordmark">
         <img class="img" src="Tesla.svg" alt="car">
@@ -40,61 +40,65 @@
       <span class="main__span description">
         <img class="main__icon" src="Speedometer icon.svg" alt="speedometer">
         <div class="description__info-number"> 2,7</div>
-				<div class="description__info-value">сек</div>
-				<div class="description__info-text">0-100 км/час</div>
+        <div class="description__info-value">сек</div>
+        <div class="description__info-text">0-100 км/час</div>
       </span>
       <span class="main__span description">
         <img class="main__icon" src="Road icon.svg" alt="road">
         <div class="description__info-number">632</div>
-				<div class="description__info-value">км</div>
+        <div class="description__info-value">км</div>
         <div class="description__info-text">запас хода</div>
       </span>
       <span class="main__span description">
         <img class="main__icon" src="Wheel icon.svg" alt="wheel">
         <div class="description__test">
-          <h6>ТЕСТ ДРАЙВ</h6>
+          <h6 class="description__test-subtitle">ТЕСТ ДРАЙВ</h6>
         </div>
       </span>
-      <input class="input_color_red" type="button" value=" Заказать">
+      <input class="input_color_red" type="button" value=" ЗАКАЗАТЬ">
     </main>
-    <article class="article-info">
-      <h2 class="article-info__title">Model S</h2>
-      <span class="article-info__span">
-        <img class="article-info__img" src="Model S cockpit.svg" alt="cockpit">
+    <article class="article">
+      <h2 class="article__title">Model S</h2>
+      <span class="article__span">
+        <img class="article__img" src="Model S cockpit.svg" alt="cockpit">
       </span>
-      <h3 class="article-info__subtitle tit">
-        Будущее вождение
-      </h3>
+    </article>
+    <article class="article-info">
+      <h4 class="article-info__subtitle tit">
+        Будущее вождения
+      </h4>
       <div class="article-info__description text">
         Модель S обладает лучшей в своем классе вместимостью: в машине поместиться до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.
       </div>
       <span class="article-info__span description">
         <img class="article-info__icon" src="Display icon.svg" alt="display">
-        <div class="description__info-white"> 17 дюймов</div>
-        <div class="description__info"> Большой дисплей
-        </div>
+        <div class="description__info-number"> 17</div>
+        <div class="description__info-value">дюймов</div>
+        <div class="description__info"> Большой дисплей</div>
       </span>
       <span class="article-info__span description">
         <img class="article-info__icon" src="Software icon.svg" alt="software">
-        <div class="description__info-white">Беспроводное обновление ПО</div>
+        <div class="description__text">Беспроводное обновление ПО</div>
         <div class="description__info">Повышенная функциональность</div>
       </span>
       <span class="article-info__span description">
         <img class="article-info__icon" src="Bag icon.svg" alt="weight">
-        <div class="description__info-white">894 литра</div>
+        <div class="description__info-number">894</div>
+        <div class="description__info-value">литра</div>
         <div class="description__info">Объем грузового пространства</div>
       </span>
-      <input class="input" type="button" value="Узнать больше">
-      <input class="input_color_white" type="button" value="Заказать">
+      <img class="img__steering-wheel" src="steering-wheel.svg" alt="Steering wheel">
+      <input class="input" type="button" value="УЗНАТЬ БОЛЬШЕ">
+      <input class="input_color_white" type="button" value="ЗАКАЗАТЬ">
     </article>
     <article class="article-safety">
-      <h3 class="article-safety__subtitle tit">
+      <h4 class="article-safety__subtitle tit">
         Самый безопасный автомобиль в мире
-      </h3>
+      </h4>
       <div class="article-safety__description text">
         Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.
       </div>
-      <h3 class="article-safety__subtitle"> Оценка защиты</h3>
+      <h4 class="article-safety__subtitle tit"> Оценка защиты:</h4>
       <div class="article-safety__criterion">СПЕРЕДИ
         <span class="article-safety__span icon">
           <img class="icon__star" src="Star.svg" alt="star">
@@ -148,21 +152,25 @@
       <span class="span">
         <img class="span__safety" src="Safety icon.svg" alt="icon-of-safety">
         <div class="span__stars">
-          5 звезд безопасности
+          5 звезд
+        </div>
+        <div class="span__safety">
+          безопасности
         </div>
       </span>
-      <input class="input" type="button" value="Узнать больше">
-      <input class="input_color_white" type="button" value="Заказать">
-      <span class="span-pic">
-        <img class="span-pic__img" src="Model S.svg" alt="Model S">
-        <img class="span-pic__img" src="Car frame.svg" alt="Car frame">
-        <img class="span-pic__shape" src="Rectangle 3.2.svg" alt="Rectangle">
-        <img class="span-pic__shape" src="Rectangle 3.3.svg" alt="Rectangle">
-        <img class="span-pic__shape" src="Rectangle 3.4.svg" alt="Rectangle">
-        <div class="span-pic__pro">Защита от удара спереди</div>
-        <div class="span-pic__pro">Защита от удара сбоку</div>
-        <div class="span-pic__pro">Минимальный риск перевернуться в аварии</div>
-      </span>
+      <img class="img__steering-wheel" src="steering-wheel.svg" alt="Steering wheel">
+      <input class="input" type="button" value="УЗНАТЬ БОЛЬШЕ">
+      <input class="input_color_white" type="button" value="ЗАКАЗАТЬ">
     </article>
+    <span class="span-pic">
+      <img class="span-pic__img" src="Model S.svg" alt="Model S">
+      <img class="span-pic__img" src="Car frame.svg" alt="Car frame">
+      <img class="span-pic__shape" src="Rectangle 3.2.svg" alt="Rectangle">
+      <img class="span-pic__shape" src="Rectangle 3.3.svg" alt="Rectangle">
+      <img class="span-pic__shape" src="Rectangle 3.4.svg" alt="Rectangle">
+      <div class="span-pic__pro">Защита от удара спереди</div>
+      <div class="span-pic__pro">Защита от удара сбоку</div>
+      <div class="span-pic__pro">Минимальный риск перевернуться в аварии</div>
+    </span>
   </body>
 </html>
