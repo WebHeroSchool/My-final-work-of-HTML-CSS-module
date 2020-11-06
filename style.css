@@ -15,7 +15,7 @@ body {
 
 .nav__item,
 .nav__par {
-  color: #000000;
+  color: #000;
 }
 
 .main__title {
@@ -63,7 +63,7 @@ body {
   font-weight: 700;
   color: #e51937;
   border-color: #e51937;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .article__title {
@@ -75,7 +75,7 @@ body {
 
 .article-info {
   background-color: #e51937;
-  color: #ffffff;
+  color: #fff;
 }
 
 .tit {
@@ -88,18 +88,6 @@ body {
   font-weight: 400;
   font-size: 15px;
   line-height: 18, 29;
-}
-
-.description__info-number {
-  font-weight: 600;
-  font-size: 35px;
-  line-height: 42, 67px;
-}
-
-.discription__info-value {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 24, 38px;
 }
 
 .description__text {
@@ -122,7 +110,7 @@ body {
   line-height: 15, 85px;
   line-height: 100%;
   align-self: center;
-  color: #ffffff;
+  color: #fff;
   background-color: #e51937;
 }
 
@@ -131,19 +119,18 @@ body {
 }
 
 .input_color_white {
-  border-color: #ffffff;
+  border-color: #fff;
 }
 
 .article-safety {
   background-color: #e51937;
-  color: #ffffff;
+  color: #fff;
 }
 
 .article-safety__criterion {
   height: 21px;
   left: 56px;
   font-style: normal;
-  font-weight: bold;
   font-size: 17px;
   line-height: 21px;
   font-weight: 600;
