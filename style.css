@@ -4,7 +4,7 @@ body {
 
 .nav {
   font-size: 15px;
-  line-height: 18, 29px;
+  line-height: 18,29px;
   font-weight: 600;
 }
 
@@ -19,44 +19,44 @@ body {
 
 .main__title {
   font-size: 90px;
-  line-height: 109, 71px;
+  line-height: 109,71px;
   font-weight: 600;
 }
 
 .main__subtitle {
   font-size: 15px;
-  line-height: 18, 29px;
+  line-height: 18,29px;
   font-weight: 500;
 }
 
 .description__info-number {
   font-size: 35px;
-  line-height: 42, 67px;
+  line-height: 42,67px;
   font-weight: 600;
 }
 
 .description__info-value {
   font-size: 20px;
-  line-height: 24, 38px;
+  line-height: 24,38px;
   font-weight: 600;
 }
 
 .description__info-text {
   font-size: 12px;
-  line-height: 14, 63px;
+  line-height: 14,63px;
   font-weight: 400;
 }
 
 .description__test-subtitle {
   font-size: 13px;
-  line-height: 15, 85px;
+  line-height: 15,85px;
   font-weight: 700;
   align-content: center;
 }
 
 .input_color_red {
   font-size: 13px;
-  line-height: 15, 85px;
+  line-height: 15,85px;
   text-align: center;
   text-transform: uppercase;
   font-weight: 700;
@@ -68,7 +68,7 @@ body {
 .article__title {
   font-weight: 600;
   font-size: 70px;
-  line-height: 85, 33px;
+  line-height: 85,33px;
   color: #e51937;
 }
 
@@ -80,25 +80,25 @@ body {
 .tit {
   font-weight: 500;
   font-size: 30px;
-  line-height: 36, 57;
+  line-height: 36,57;
 }
 
 .text {
   font-weight: 400;
   font-size: 15px;
-  line-height: 18, 29;
+  line-height: 18,29;
 }
 
 .description__text {
   font-weight: 600;
   font-size: 20px;
-  line-height: 17, 55px;
+  line-height: 17,55px;
 }
 
 .description__info {
   font-weight: 400;
   font-size: 12px;
-  line-height: 14, 63px;
+  line-height: 14,63px;
 }
 
 .input,
@@ -106,7 +106,7 @@ body {
   font-weight: 700;
   font-size: 13px;
   font-style: bold;
-  line-height: 15, 85px;
+  line-height: 15,85px;
   line-height: 100%;
   align-self: center;
   color: #fff;
@@ -139,17 +139,17 @@ body {
   top: 2457px;
   font-weight: 600;
   font-size: 50px;
-  line-height: 60, 95px;
+  line-height: 60,95px;
 }
 
 .span__safety {
   font-size: 25px;
-  line-height: 30, 48px;
+  line-height: 30,48px;
   font-weight: 500;
 }
 
 .span-pic__pro {
   font-size: 17px;
-  line-height: 14, 92;
+  line-height: 14,92;
   font-weight: 600;
 }
