@@ -29,6 +29,6 @@
 @font-face {
   src: url('fonts/Montserrat-Bold.woff') format('woff');
   font-family: 'Montserrat';
-  font-weight: bold;
-  font-style: 700;
+  font-weight: 700;
+  font-style: bold;
 }
