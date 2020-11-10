@@ -1,0 +1,155 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav {
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 600;
+}
+
+.nav__item-red {
+  color: #e51937;
+}
+
+.nav__item,
+.nav__par {
+  color: #000;
+}
+
+.main__title {
+  font-size: 90px;
+  line-height: 110px;
+  font-weight: 600;
+}
+
+.main__subtitle {
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.description__info-number {
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: 600;
+}
+
+.description__info-value {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.description__info-text {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+}
+
+.description__test-subtitle {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 700;
+  align-content: center;
+}
+
+.input_color_red {
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #e51937;
+  border-color: #e51937;
+  background-color: #fff;
+}
+
+.article__title {
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 85px;
+  color: #e51937;
+}
+
+.article-info {
+  background-color: #e51937;
+  color: #fff;
+}
+
+.tit {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18;
+}
+
+.description__text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 18px;
+}
+
+.description__info {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.input,
+.input_color_white {
+  font-weight: 700;
+  font-size: 13px;
+  font-style: bold;
+  line-height: 16px;
+  line-height: 100%;
+  align-self: center;
+  color: #fff;
+  background-color: #e51937;
+}
+
+.input {
+  border: 0;
+}
+
+.input_color_white {
+  border-color: #fff;
+}
+
+.article-safety {
+  background-color: #e51937;
+  color: #fff;
+}
+
+.article-safety__criterion {
+  height: 21px;
+  left: 56px;
+  font-size: 17px;
+  line-height: 21px;
+  font-weight: 600;
+}
+
+.span__stars {
+  left: 151px;
+  top: 2457px;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 61px;
+}
+
+.span__safety {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.span-pic__pro {
+  font-size: 17px;
+  line-height: 15px;
+  font-weight: 600;
+}
