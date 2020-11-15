@@ -1,8 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.nav {
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 24px;
+  margin-left: -12px;
+}
+
+.nav__item,
+.nav__item-red,
+.nav__par {
   font-size: 15px;
   line-height: 18px;
   font-weight: 600;
@@ -17,16 +32,35 @@ body {
   color: #000;
 }
 
+h1.main__title {
+  margin-left: 535px;
+  margin-top: 34px;
+}
+
 .main__title {
   font-size: 90px;
   line-height: 110px;
   font-weight: 600;
 }
 
+h5.main__subtitle {
+  margin-left: 600px;
+  margin-top: -9px;
+}
+
 .main__subtitle {
   font-size: 15px;
   line-height: 18px;
   font-weight: 500;
+}
+
+img.img-wordmark {
+  margin-top: -118px;
+}
+
+img.img-Car {
+  margin-top: -327px;
+  margin-left: 199px;
 }
 
 .description__info-number {
