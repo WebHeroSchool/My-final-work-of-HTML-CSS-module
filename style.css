@@ -5,6 +5,15 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  height: 7vw;
+  margin-bottom: 23px;
 }
 
 nav {
@@ -12,19 +21,23 @@ nav {
   justify-content: space-around;
   align-items: center;
   padding-top: 24px;
-  margin-left: -12px;
+  color: #000;
 }
 
-.nav__item,
+.header__img {
+   margin: 0 258px 2px 42px;
+}
+
 .nav__item-red,
-.nav__par {
+.nav__item-X,
+.nav__item-3,
+.nav__item-roadster,
+.nav__item-energy,
+.nav__par,
+.nav__item {
   font-size: 15px;
   line-height: 18px;
   font-weight: 600;
-}
-
-.nav__item-red {
-  color: #e51937;
 }
 
 .nav__item,
@@ -32,20 +45,71 @@ nav {
   color: #000;
 }
 
+.nav__item-red {
+  color: #e51937;
+  margin: 0 64px 24px 0;
+  text-decoration: none;
+  border-bottom: 2px solid #e51937;
+  line-height: 31px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  display: inline;
+}
+
+.nav__item-X {
+  text-decoration: none;
+  margin: 0px 25px 24px 0px;
+  color: #000;
+}
+
+.nav__item-3 {
+  margin: 0 44px 24px 0;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav__item-roadster {
+  margin: 0px 47px 24px 0px;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav__item-energy {
+  margin: 0px 221px 25px 0;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav__item {
+  margin: 0 27px 24px 0;
+  text-decoration: none;
+}
+
+.nav__par {
+  margin: 0px 15px 24px 3px;
+  text-decoration: none;
+}
+
+#body__switch {
+  display: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
 h1.main__title {
-  margin-left: 535px;
-  margin-top: 34px;
+  margin: 9px 0 0;
+  height: 101px;
 }
 
 .main__title {
   font-size: 90px;
   line-height: 110px;
   font-weight: 600;
-}
-
-h5.main__subtitle {
-  margin-left: 600px;
-  margin-top: -9px;
 }
 
 .main__subtitle {
@@ -55,12 +119,11 @@ h5.main__subtitle {
 }
 
 img.img-wordmark {
-  margin-top: -118px;
+  margin: 0 0 0 0;
 }
 
 img.img-Car {
-  margin-top: -327px;
-  margin-left: 199px;
+
 }
 
 .description__info-number {
