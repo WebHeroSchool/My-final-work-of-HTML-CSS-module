@@ -75,7 +75,7 @@ nav {
 }
 
 .nav__item-energy {
-  margin: 0px 15.4vw 1.8vw 0;
+  margin: 0 15.4vw 1.8vw 0;
   text-decoration: none;
   color: #000;
 }
@@ -228,13 +228,13 @@ img.img-Car {
 .section {
   display: flex;
   justify-content: flex-start;
-  margin: 0vw 14vw 0vw 3vw;
+  margin: 0 14vw 0vw 3vw;
 }
 
 .main__span {
   display: flex;
   flex-direction: row;
-  margin-top: 0vw;
+  margin-top: 0;
 }
 
 .article-safety {
