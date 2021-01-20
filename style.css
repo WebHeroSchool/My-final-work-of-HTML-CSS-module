@@ -13,19 +13,19 @@ body {
   justify-content: flex-start;
   align-content: center;
   height: 7vw;
-  margin-bottom: 23px;
+  margin-bottom: 1.7vw;
 }
 
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 24px;
+  padding-top: 1.7vw;
   color: #000;
 }
 
 .header__img {
-   margin: 0 258px 2px 42px;
+  margin: 0 17.9vw 0.1vw 2.9vw;
 }
 
 .nav__item-red,
@@ -47,46 +47,46 @@ nav {
 
 .nav__item-red {
   color: #e51937;
-  margin: 0 64px 24px 0;
+  margin: 0 4.4vw 1.7vw 0;
   text-decoration: none;
-  border-bottom: 2px solid #e51937;
-  line-height: 31px;
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
+  border-bottom: 0.1vw solid #e51937;
+  line-height: 2.2vw;
+  border-bottom-left-radius: 0.2vw;
+  border-bottom-right-radius: 0.2vw;
   display: inline;
 }
 
 .nav__item-X {
   text-decoration: none;
-  margin: 0px 25px 24px 0px;
+  margin: 0 1.8vw 1.7vw 0;
   color: #000;
 }
 
 .nav__item-3 {
-  margin: 0 44px 24px 0;
+  margin: 0 3vw 1.7vw 0;
   text-decoration: none;
   color: #000;
 }
 
 .nav__item-roadster {
-  margin: 0px 47px 24px 0px;
+  margin: 0 3.3vw 1.8vw 0;
   text-decoration: none;
   color: #000;
 }
 
 .nav__item-energy {
-  margin: 0px 221px 25px 0;
+  margin: 0px 15.4vw 1.8vw 0;
   text-decoration: none;
   color: #000;
 }
 
 .nav__item {
-  margin: 0 27px 24px 0;
+  margin: 0 1.9vw 1.7vw 0;
   text-decoration: none;
 }
 
 .nav__par {
-  margin: 0px 15px 24px 3px;
+  margin: 0 2vw 1.7vw 0.2vw;
   text-decoration: none;
 }
 
@@ -101,15 +101,12 @@ main {
   align-items: center;
 }
 
-h1.main__title {
-  margin: 9px 0 0;
-  height: 101px;
-}
-
 .main__title {
   font-size: 90px;
   line-height: 110px;
   font-weight: 600;
+  margin: 9px 0 0;
+  height: 101px;
 }
 
 .main__subtitle {
@@ -118,12 +115,23 @@ h1.main__title {
   font-weight: 500;
 }
 
-img.img-wordmark {
-  margin: 0 0 0 0;
+.img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: url(./images/Tesla-Wordmark-Red-big.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 84.5vw;
+  padding: 2px;
+  height: 500px;
+  width: 100%;
+  margin: 1.6vw 2.6vw 0 0.5vw;
 }
 
 img.img-Car {
-
+  margin: 0 0 3.3vw 14.9vw;
 }
 
 .description__info-number {
@@ -204,7 +212,6 @@ img.img-Car {
   font-size: 13px;
   font-style: bold;
   line-height: 16px;
-  line-height: 100%;
   align-self: center;
   color: #fff;
   background-color: #e51937;
@@ -216,6 +223,18 @@ img.img-Car {
 
 .input_color_white {
   border-color: #fff;
+}
+
+.section {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0vw 14vw 0vw 3vw;
+}
+
+.main__span {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0vw;
 }
 
 .article-safety {
