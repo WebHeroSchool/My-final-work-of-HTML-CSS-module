@@ -228,7 +228,7 @@ img.img-Car {
 .section {
   display: flex;
   justify-content: flex-start;
-  margin: 0 14vw 0vw 3vw;
+  margin: 0 14vw 0 3vw;
 }
 
 .main__span {
